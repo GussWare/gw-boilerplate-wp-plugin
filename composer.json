@@ -1,0 +1,21 @@
+{
+    "name": "gussware/gw-boilerplate",
+    "description": "Boilerplate para la creación de plugins en wordpress",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "GussWare\\GwBoilerplate\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "GussWare",
+            "email": "gussware@gmail.com"
+        }
+    ],
+    "require": {
+        "sultann/wp-query-builder": "^1.0",
+        "siriusphp/validation": "^3.1",
+        "rexon/request-sanitizer": "^1.0"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "handlebars": "^4.7.7",
+    "jquery-form": "^4.3.0",
+    "jquery-validation": "^1.19.5",
+    "plugin-basic-pagination": "^0.1.2-alpha"
+  }
+}
